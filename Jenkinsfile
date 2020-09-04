@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        jdk 'jdk8'
-        maven  'm3'
+        jdk 'JAVA_HOME'
+        maven  'M2_HOME'
     }
     stages {
         stage('Checkout SCM'){
